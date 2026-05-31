@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Partial Discharge datasets
+*.parquet
+
+# Experimental data
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated figures
+figures/generated/*
+!figures/generated/.gitkeep
