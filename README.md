@@ -1,5 +1,9 @@
 # Partial Discharge Statistical Analysis
 
+## Main Objective
+
+Develop statistical models capable of characterizing Partial Discharge measurements and supporting the generation of realistic synthetic datasets for Machine Learning applications.
+
 ## Overview
 
 This repository contains tools for the statistical analysis and preprocessing of Partial Discharge (PD) measurements.
@@ -42,14 +46,11 @@ The repository currently includes studies related to:
 
 ## Repository Structure
 
-```text
-data/        -> Measurement datasets
-src/         -> Analysis and filtering algorithms
-notebooks/   -> Experimental studies
-figures/     -> Generated plots and results
-docs/        -> Methodology and documentation
-```
 
+```
+src/         -> Analysis and filtering algorithms
+docs/        -> Research notes and documentation
+```
 ---
 
 ## Authors
