@@ -58,14 +58,14 @@ High Voltage Laboratory (LAT)
 
 Project Supervisors:
 
-* [Supervisor Name]
-* [Supervisor Name]
+* João
+* Herbert Crispim
 
 Researchers:
 
-* [Researcher Name]
-* [Researcher Name]
-* Dan [Surname]
+* Raynara
+* Arthur Buriti de Araújo Fernandes
+* Pedro Daniel Chaves Monteiro de Almeida Seixas
 
 ---
 
