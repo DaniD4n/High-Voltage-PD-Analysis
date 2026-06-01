@@ -1,5 +1,5 @@
 import numpy as np
-
+import matplotlib.pyplot as plt
 from src.io import load_data
 from src.models import kde_2d, gmm_2d, phase_kde
 from src.filters import combined_score, density_filter, find_phase_peaks, probability
@@ -7,7 +7,7 @@ from src.visualization import (plot_raw, plot_density, plot_structure, plot_filt
 
 
 # CONFIG (edit ONLY this for experiments)
-CONFIG = {"path": "data/example.parquet",
+CONFIG = {"path": "C:\\Users\\Daniiiii\\Downloads\\Parquets 1\\Corona\\grounded plane 125_Ch1.parquet",
     "kde_bandwidth": 2.5,
     "gmm_max_components": 8,
     "filter_percentile": 10}
@@ -45,9 +45,14 @@ def run_experiment(cfg):
 
     # Plots----------------
     plot_raw(w, A_norm)
+    plt.show()
     plot_density(w, A_norm)
+    plt.show()
     plot_structure(x_grid, density, peaks)
+    plt.show()
     plot_filter(w, A_norm, w_f, A_f)
+    plt.show()
+
 
     # Output metric-------------------
     result = probability(x_grid, density, float(input("Min: ")), float(input("Max: ")))
