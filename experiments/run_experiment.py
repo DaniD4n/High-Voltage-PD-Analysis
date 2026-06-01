@@ -43,13 +43,10 @@ def run_experiment(cfg):
     w_f = w[mask]
     A_f = A_norm[mask]
 
-    # Plots----------------
+    # Plots--------------------------
     plot_raw(w, A_norm)
-    plt.show()
     plot_density(w, A_norm)
-    plt.show()
     plot_structure(x_grid, density, peaks)
-    plt.show()
     plot_filter(w, A_norm, w_f, A_f)
     plt.show()
 
