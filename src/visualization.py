@@ -2,11 +2,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def plot_sine(max_val):
-    plt.figure()
     x = np.linspace(0, 360, 500)
     y = np.sin(np.deg2rad(x)) * max_val*1.1
-    plt.plot(x, y, label="Sine", color='red')
-    
+    plt.plot(x, y, alpha=0.3, label="Sine", color='red')
+
 def plot_raw(w, A_norm):
     plt.figure()
     plt.scatter(w, A_norm, s=2, alpha=0.3)
